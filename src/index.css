@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Felipa&display=swap');
-@import "tailwindcss";
+@import 'tailwindcss';
 
 :root {
   --bg: oklch(91% 0.03 85);
@@ -12,10 +12,12 @@
   --text-light: oklch(95% 0.01 90);
 
   --accent-green: oklch(48% 0.08 140);
-  --accent-brown: oklch(52% 0.09 65); 
+  --accent-brown: oklch(52% 0.09 65);
   --accent-gold: oklch(78% 0.12 85);
-  
-  font: 18px/145% 'Cardo', serif;
+
+  font:
+    18px/145% 'Cardo',
+    serif;
   letter-spacing: 0.18px;
   color-scheme: light;
   color: var(--text);
@@ -40,4 +42,3 @@ body {
   display: flex;
   justify-content: center;
 }
-
