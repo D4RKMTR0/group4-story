@@ -18,14 +18,14 @@ export default function Footer() {
     <footer className="border-t border-(--border) bg-(--bg-card) px-6 py-6 text-(--text-muted)">
       <div className="mx-auto flex max-w-2xl flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
         <div>
-          <p className="font-display text-sm font-semibold tracking-wide text-(--text)">
+          <p className="font-display text-md font-semibold tracking-wide text-(--text)">
             Group 4
           </p>
-          <p className="mt-1 text-xs text-(--text-dim)">9 - Avery</p>
+          <p className="mt-1 text-sm text-(--text-dim)">9 - Avery</p>
         </div>
 
         <div className="flex flex-col gap-1.5">
-          <p className="font-display text-[10px] font-bold tracking-widest text-(--text) uppercase">
+          <p className="text-md font-display font-bold tracking-widest text-(--text)">
             Mga Miyembro
           </p>
           <ul className="grid grid-cols-[auto_auto] justify-start gap-x-2 gap-y-1 text-xs">

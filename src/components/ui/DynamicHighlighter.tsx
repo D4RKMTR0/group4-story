@@ -124,7 +124,7 @@ export function DynamicHighlighter({
         </defs>
         <g
           filter={`url(#${filterId})`}
-          className="fill-green-700/60 stroke-green-700/60"
+          className="fill-amber-950/60 stroke-amber-950/60"
           mask={`url(#${maskId})`}
         >
           {shape}

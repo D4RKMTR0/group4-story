@@ -1,6 +1,7 @@
 import { createBrowserRouter, RouterProvider, Navigate } from 'react-router';
 import AppLayout from './layouts/AppLayout';
 import Buod from './pages/Buod';
+import NotFound from './pages/NotFound';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
         element: <p>Pagsusuri</p>,
       },
     ],
+  },
+  {
+    path: '*',
+    element: <NotFound />,
   },
 ]);
 
