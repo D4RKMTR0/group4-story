@@ -33,7 +33,8 @@ export default function NavItem({
   const isActive = location.pathname === to;
 
   const [isHovered, setIsHovered] = useState<boolean>(false);
-  const [currentVariant, setCurrentVariant] = useState<HighlightVariant>('classic');
+  const [currentVariant, setCurrentVariant] =
+    useState<HighlightVariant>('classic');
 
   const getNewVariant = (currentVariant: HighlightVariant) => {
     let newVariant: HighlightVariant;
@@ -64,17 +65,23 @@ export default function NavItem({
       to={to}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-      className="relative inline-flex items-center gap-2 px-3 py-1 mx-1"
+      className="relative mx-0 inline-flex flex-col items-center gap-0.5 px-2 py-1.5 sm:mx-1 sm:flex-row sm:gap-2 sm:px-3 sm:py-1"
     >
       <span
-        className="relative z-0 flex items-center gap-1 font-display text-xl"
+        className="relative z-0 flex flex-col items-center font-display text-lg sm:flex-row sm:gap-2"
         style={{ mixBlendMode: 'darken' }}
       >
-        {IconComponent && <IconComponent size={24} />}
-        {content}
+        {IconComponent && <IconComponent size={22} className="sm:hidden" />}
+        {IconComponent && (
+          <IconComponent size={24} className="hidden sm:block" />
+        )}
+        <span className="text-sm sm:text-xl">{content}</span>
       </span>
-      <div className="absolute inset-0 pointer-events-none">
-        <DynamicHighlighter variant={currentVariant} isHovered={shouldHighlight} />
+      <div className="pointer-events-none absolute inset-0">
+        <DynamicHighlighter
+          variant={currentVariant}
+          isHovered={shouldHighlight}
+        />
       </div>
     </NavLink>
   );
