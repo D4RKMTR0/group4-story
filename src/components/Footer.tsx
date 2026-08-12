@@ -1,17 +1,15 @@
-// src/components/Footer.tsx
-import { Fragment } from 'react';
-
 interface Member {
   name: string;
-  contribution: string;
 }
 
 export default function Footer() {
   const members: Member[] = [
-    { name: 'Lorem Ipsum', contribution: 'Sit Dolor' },
-    { name: 'Amet Consectetur', contribution: 'Adipiscing Elit' },
-    { name: 'Tempor Incididunt', contribution: 'Labore Magna' },
-    { name: 'Aliqua Enim', contribution: 'Minim Veniam' },
+    { name: 'Maria Fenelly C. David' },
+    { name: 'Stella Cassandra R. De Jesus' },
+    { name: 'Samantha Kathalea Y. Juson' },
+    { name: 'Elisha Jasmine V. Laurito' },
+    { name: 'Brent Adrian M. Fogarty' },
+    { name: 'Eishan Quiel J. Oliveros' },
   ];
 
   return (
@@ -28,12 +26,11 @@ export default function Footer() {
           <p className="text-md font-display font-bold tracking-widest text-(--text)">
             Mga Miyembro
           </p>
-          <ul className="grid grid-cols-[auto_auto] justify-start gap-x-2 gap-y-1 text-xs">
-            {members.map(({ name, contribution }) => (
-              <Fragment key={name}>
-                <span className="text-(--text-muted)">{name}</span>
-                <span className="text-(--text-dim)">— {contribution}</span>
-              </Fragment>
+          <ul className="grid grid-cols-2 gap-x-6 gap-y-1 text-xs">
+            {members.map(({ name }) => (
+              <li key={name} className="text-(--text-muted)">
+                {name}
+              </li>
             ))}
           </ul>
         </div>

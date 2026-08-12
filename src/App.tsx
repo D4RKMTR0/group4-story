@@ -3,6 +3,8 @@ import AppLayout from './layouts/AppLayout';
 import Buod from './pages/Buod';
 import NotFound from './pages/NotFound';
 import Tauhan from './pages/Tauhan';
+import Pagsusuri from './pages/Pagsusuri';
+import Kredito from './pages/Kredito';
 
 const router = createBrowserRouter([
   {
@@ -23,7 +25,11 @@ const router = createBrowserRouter([
       },
       {
         path: 'pagsusuri',
-        element: <p>Pagsusuri</p>,
+        element: <Pagsusuri />,
+      },
+      {
+        path: 'kredito',
+        element: <Kredito />,
       },
     ],
   },

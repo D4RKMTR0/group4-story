@@ -4,6 +4,7 @@ import {
   ClipboardTextIcon,
   UsersIcon,
   BookOpenTextIcon,
+  UsersFourIcon,
 } from '@phosphor-icons/react';
 
 export default function Navbar(): React.JSX.Element {
@@ -33,6 +34,14 @@ export default function Navbar(): React.JSX.Element {
         icon={BookOpenTextIcon}
         hoveredPath={hoveredPath}
         onHoverStart={() => setHoveredPath('/pagsusuri')}
+        onHoverEnd={() => setHoveredPath(null)}
+      />
+      <NavItem
+        to="/kredito"
+        content="Kredito"
+        icon={UsersFourIcon}
+        hoveredPath={hoveredPath}
+        onHoverStart={() => setHoveredPath('/kredito')}
         onHoverEnd={() => setHoveredPath(null)}
       />
     </nav>
