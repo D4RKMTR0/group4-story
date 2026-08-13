@@ -19,7 +19,7 @@ function Buod() {
           Noong 1991, sa panahon ng pagputok ng Bulkang Pinatubo, nakilala niya si Narcissa Ferrer, isang boluntaryong 
           tulad niyang may malasakit sa mga nangangailangan. Naging magkasama sila, nagpakasal, at bumuo ng pamilya. 
           Kalaunan, tumakbo si Benny bilang alkalde ng San Isidro upang maisakatuparan ang kaniyang pangarap na baguhin 
-          ang bayan mula sa loob ng pamahalaan. Nanalo siya at sa simula ay naging mahusay na pinuno—pinabuti ang mga 
+          ang bayan mula sa loob ng pamahalaan. Nanalo siya at sa simula ay naging mahusay na pinuno. Pinabuti niya ang mga 
           kalsada, binuhay ang mga proyekto, at muling binigyan ng pag-asa ang mga mamamayan.
         </p>
         <p>
@@ -27,7 +27,7 @@ function Buod() {
           Nakilala niya sina Don Segundo, Don Benigno, at Angelo, mga makapangyarihang personalidad na konektado sa isang 
           sindikato. Sa pamamagitan ng mga alok na pondo, impluwensiya, at suporta, unti-unti nilang nahikayat si Benny 
           na makilahok sa mga gawaing labag sa kaniyang dating prinsipyo. Sa una, maliit lamang ang kaniyang mga 
-          kompromiso—pagpirma sa mga dokumento, pagbibigay ng pabor, at pananahimik—ngunit kalaunan ay naging bahagi na 
+          kompromiso. Siya ay nagpirma sa mga dokumento, nagbibigay ng pabor, at nanahimik. ngunit kalaunan ay naging bahagi na 
           siya ng sistemang dati niyang kinamumuhian.
         </p>
         <p>

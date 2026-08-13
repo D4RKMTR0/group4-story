@@ -59,9 +59,8 @@ function Kredito() {
     <article className="space-y-10 pb-6 font-display text-base leading-relaxed">
       <div>
         <h1 className="font-handwritten text-4xl font-bold text-(--text)">
-          Mga Kredito
+          Mga Dedikasyon
         </h1>
-        <p className="mt-1 text-sm text-(--text-muted)">Mga taong gumawa ng kuwentong ito</p>
       </div>
 
       <section className="space-y-8">

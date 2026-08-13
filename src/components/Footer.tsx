@@ -4,17 +4,17 @@ interface Member {
 
 export default function Footer() {
   const members: Member[] = [
-    { name: 'Maria Fenelly C. David' },
-    { name: 'Stella Cassandra R. De Jesus' },
-    { name: 'Samantha Kathalea Y. Juson' },
-    { name: 'Elisha Jasmine V. Laurito' },
-    { name: 'Brent Adrian M. Fogarty' },
-    { name: 'Eishan Quiel J. Oliveros' },
+    { name: 'Maria David' },
+    { name: 'Stella De Jesus' },
+    { name: 'Samantha Juson' },
+    { name: 'Elisha Laurito' },
+    { name: 'Brent Fogarty' },
+    { name: 'Eishan Oliveros' },
   ];
 
   return (
     <footer className="border-t border-(--border) bg-(--bg-card) px-6 py-6 text-(--text-muted)">
-      <div className="mx-auto flex max-w-2xl flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+      <div className="mx-auto flex max-w-2xl flex-col gap-6 sm:flex-row sm:items-start sm:justify-between">
         <div>
           <p className="font-display text-md font-semibold tracking-wide text-(--text)">
             Group 4
@@ -22,13 +22,13 @@ export default function Footer() {
           <p className="mt-1 text-sm text-(--text-dim)">9 - Avery</p>
         </div>
 
-        <div className="flex flex-col gap-1.5">
+        <div className="flex flex-col gap-2">
           <p className="text-md font-display font-bold tracking-widest text-(--text)">
             Mga Miyembro
           </p>
-          <ul className="grid grid-cols-2 gap-x-6 gap-y-1 text-xs">
+          <ul className="grid grid-cols-2 gap-x-8 gap-y-1.5 text-xs">
             {members.map(({ name }) => (
-              <li key={name} className="text-(--text-muted)">
+              <li key={name} className="text-(--text-muted) whitespace-nowrap">
                 {name}
               </li>
             ))}

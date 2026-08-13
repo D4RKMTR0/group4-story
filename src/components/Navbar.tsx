@@ -11,7 +11,7 @@ export default function Navbar(): React.JSX.Element {
   const [hoveredPath, setHoveredPath] = useState<string | null>(null);
 
   return (
-    <nav className="flex h-20 sm:h-16 w-screen shrink-0 flex-wrap items-center justify-evenly gap-8 border-y border-(--text-muted)/20 bg-(--bg-card) px-4 py-2 font-serif text-sm tracking-wide shadow-inner sm:w-full sm:max-w-2xl sm:px-8">
+    <nav className="flex h-20 sm:h-16 w-screen shrink-0 flex-wrap items-center justify-evenly gap-4 lg:gap-8 border-y border-(--text-muted)/20 bg-(--bg-card) px-4 py-2 font-serif text-sm tracking-wide shadow-inner sm:w-full sm:max-w-2xl sm:px-8">
       <NavItem
         to="/buod"
         content="Buod"

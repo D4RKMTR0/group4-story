@@ -51,7 +51,7 @@ function Pagsusuri() {
             3. Si Benny bilang isang Komplikadong Tauhan
           </h2>
           <p className="mt-2 text-sm text-(--text-muted)">
-            Si Benny ay hindi inilalarawan bilang ganap na mabuti o ganap na masama. Siya ay isang tragic character—isang taong may mabuting layunin ngunit gumawa ng masasamang desisyon.
+            Si Benny ay hindi inilalarawan bilang ganap na mabuti o ganap na masama, siya ay isang tragic na character. isang taong may mabuting layunin ngunit gumawa ng masasamang desisyon.
           </p>
           <p className="mt-2 text-sm text-(--text-muted)">
             Ang kaniyang pinakamalaking kahinaan ay ang paniniwalang maaari niyang gamitin ang sistema nang hindi siya tuluyang ginagamit nito. Sa simula, iniisip niyang pansamantala lamang ang kaniyang mga kompromiso. Ngunit habang tumatagal, siya na mismo ang nagiging bahagi ng problemang nais niyang lutasin.
